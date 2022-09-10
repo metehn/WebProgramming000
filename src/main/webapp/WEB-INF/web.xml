@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <!-- http://localhost:8080/WebProgramming000-1.0-SNAPSHOT/  ======> http://localhost:8080/myapp/
+
+    aşagıdaki etiketi yazarsak url değişecek, intellij de ayar yapmak gerekecek
+     <default-context-path>/myapp</default-context-path>
+    -->
+
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>metehan</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>sifre</param-value>
+    </context-param>
+
+</web-app>
